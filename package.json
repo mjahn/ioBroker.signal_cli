@@ -6,7 +6,7 @@
     "name": "Martin Jahn",
     "email": "martinjahn@gmail.com"
   },
-  "homepage": "https://github.com/Martin Jahn/ioBroker.signal_cli",
+  "homepage": "https://github.com/mjahn/ioBroker.signal_cli",
   "license": "MIT",
   "keywords": [
     "signal",
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Martin Jahn/ioBroker.signal_cli"
+    "url": "https://github.com/mjahn/ioBroker.signal_cli"
   },
   "dependencies": {
     "@iobroker/adapter-core": "^2.4.0",
