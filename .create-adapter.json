@@ -1,0 +1,40 @@
+{
+	"cli": true,
+	"adapterName": "signal_cli",
+	"title": "Signal CLI",
+	"description": "Receive and send messages via the signal-cli",
+	"keywords": [
+		"signal",
+		"messaging",
+		"adapter",
+		"cli"
+	],
+	"expert": "no",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "alarm",
+	"startMode": "daemon",
+	"connectionType": "local",
+	"dataSource": "poll",
+	"connectionIndicator": "no",
+	"language": "JavaScript",
+	"adminReact": "no",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"indentation": "Tab",
+	"quotes": "double",
+	"es6class": "yes",
+	"authorName": "Martin Jahn",
+	"authorGithub": "Martin Jahn",
+	"authorEmail": "martinjahn@gmail.com",
+	"gitRemoteProtocol": "HTTPS",
+	"gitCommit": "no",
+	"license": "MIT License",
+	"ci": "gh-actions",
+	"dependabot": "no",
+	"creatorVersion": "1.31.0"
+}

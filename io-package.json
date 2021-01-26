@@ -1,0 +1,79 @@
+{
+	"common": {
+		"name": "signal_cli",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Signal CLI",
+		"titleLang": {
+			"en": "Signal CLI",
+			"de": "Signal CLI",
+			"ru": "Сигнал CLI",
+			"pt": "Sinal CLI",
+			"nl": "Signaal CLI",
+			"fr": "Signal CLI",
+			"it": "Signal CLI",
+			"es": "Señal CLI",
+			"pl": "Sygnał CLI",
+			"zh-cn": "信号CLI"
+		},
+		"desc": {
+			"en": "Receive and send messages via the signal-cli",
+			"de": "Empfangen und senden Sie Nachrichten über die Signal-CLI",
+			"ru": "Получать и отправлять сообщения через signal-cli",
+			"pt": "Receber e enviar mensagens via signal-cli",
+			"nl": "Ontvang en verstuur berichten via de signal-cli",
+			"fr": "Recevoir et envoyer des messages via le signal-cli",
+			"it": "Ricevi e invia messaggi tramite il signal-cli",
+			"es": "Reciba y envíe mensajes a través de signal-cli",
+			"pl": "Odbieraj i wysyłaj wiadomości za pośrednictwem linii sygnałowej",
+			"zh-cn": "通过signal-cli接收和发送消息"
+		},
+		"authors": [
+			"Martin Jahn <martinjahn@gmail.com>"
+		],
+		"keywords": [
+			"signal",
+			"messaging",
+			"adapter",
+			"cli"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "signal_cli.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/Martin Jahn/ioBroker.signal_cli/master/admin/signal_cli.png",
+		"readme": "https://github.com/Martin Jahn/ioBroker.signal_cli/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "alarm",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "poll",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
